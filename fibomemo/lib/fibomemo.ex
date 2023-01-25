@@ -10,7 +10,7 @@ defmodule Fibomemo do
   end
 
   def fib(n) do
-    Logger.info("fib for #{n}")
+    # Logger.info("fib for #{n}")
     fib(n - 1) + fib(n - 2)
   end
 end
