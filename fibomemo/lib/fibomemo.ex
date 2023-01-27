@@ -1,5 +1,5 @@
 defmodule Fibomemo do
-  require Logger
+  # require Logger
 
   def fib(0) do
     1

@@ -22,6 +22,7 @@ defmodule Ppcmemo.Cpuplayer do
     selected_play = Enum.random(@possible_result)
 
     Logger.info("selected #{selected_play}")
+    # Process.sleep(1000)
     {:reply, selected_play, state}
   end
 end
