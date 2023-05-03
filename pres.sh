@@ -1,0 +1,1 @@
+mdp ./pres.md -f
